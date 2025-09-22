@@ -87,7 +87,7 @@ def periodic_memory_cleanup():
         time.sleep(600)  # Pembersihan memori setiap 10 menit
 
 # ========== KONFIGURASI MQTT DAN MODEL ========== #
-MQTT_BROKER = "localhost"
+MQTT_BROKER = ""
 MQTT_PORT = 1883
 MQTT_TOPIC = ""
 
