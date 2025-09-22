@@ -89,7 +89,7 @@ def periodic_memory_cleanup():
 # ========== KONFIGURASI MQTT DAN MODEL ========== #
 MQTT_BROKER = "localhost"
 MQTT_PORT = 1883
-MQTT_TOPIC = "testing_pm/gas_analyzer"
+MQTT_TOPIC = ""
 
 MODEL_AUTOENCODER_PATH = "/home/edicoba2/Documents/predictive_maintenance/model/anomali_gas_pls_64_batch1.tflite"
 
@@ -109,8 +109,8 @@ pengambilan_size = 60
 last_telegram_sent_second = -1  # Inisialisasi detik terakhir pengiriman
 
 # Telegram Bot
-TELEGRAM_TOKEN = "7732441551:AAHjVxWT1NF50uSjiVQI-94SZ3FZ3w1lg4I"
-TELEGRAM_CHAT_ID = "5007270205"
+TELEGRAM_TOKEN = ""
+TELEGRAM_CHAT_ID = "5"
 TELEGRAM_API_URL = f"https://api.telegram.org/bot{TELEGRAM_TOKEN}/sendMessage"
 
 # ========== KONFIGURASI CSV UNTUK PENGIRIMAN TELEGRAM ========== #
