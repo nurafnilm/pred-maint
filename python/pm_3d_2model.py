@@ -117,11 +117,11 @@ def periodic_memory_cleanup():
         time.sleep(600)  # Pembersihan memori setiap 10 menit
 
 # ========== KONFIGURASI MQTT DAN MODEL ========== #
-MQTT_BROKER = "c-greenproject.org"
+MQTT_BROKER = ""
 MQTT_PORT = 1883
-MQTT_TOPIC = "testing_pm/3d_anemometer"
-MQTT_USERNAME = "eddystation"
-MQTT_PASSWORD = "pwdMQTT@123"
+MQTT_TOPIC = ""
+MQTT_USERNAME = ""
+MQTT_PASSWORD = ""
 
 MODEL_CNNLSTM_PATH = "/home/edicoba/Documents/predictive_maintenance/model/predicted_3d_pls_32_64_batch1.tflite"
 MODEL_AUTOENCODER_PATH = "/home/edicoba/Documents/predictive_maintenance/model/anomali_3d_pls_64_batch1.tflite"
@@ -150,8 +150,8 @@ pengambilan_size = 60
 last_telegram_sent_second = -1  # Inisialisasi detik terakhir pengiriman
 
 # Telegram Bot
-TELEGRAM_TOKEN = "7503070532:AAGXVq5nGCzOQB_g9ADVWMoTxR79YEV0RuM"
-TELEGRAM_CHAT_ID = "1770743884"
+TELEGRAM_TOKEN = ""
+TELEGRAM_CHAT_ID = ""
 TELEGRAM_API_URL = f"https://api.telegram.org/bot{TELEGRAM_TOKEN}/sendMessage"
 
 # ========== KONFIGURASI CSV UNTUK PENGIRIMAN TELEGRAM ========== #
