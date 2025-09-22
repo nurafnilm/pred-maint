@@ -120,8 +120,6 @@ def periodic_memory_cleanup():
 MQTT_BROKER = ""
 MQTT_PORT = 1883
 MQTT_TOPIC = ""
-MQTT_USERNAME = ""
-MQTT_PASSWORD = ""
 
 MODEL_CNNLSTM_PATH = "/home/edicoba2/Documents/predictive_maintenance/model/predicted_gas_pls_32_32_batch1.tflite"
 MODEL_AUTOENCODER_PATH = "/home/edicoba2/Documents/predictive_maintenance/model/anomali_gas_pls_64_batch1.tflite"
